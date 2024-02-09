@@ -8,7 +8,7 @@ terraform {
 }
 
 provider "aws" {
-region = "ap-south-1a"
+region = "ap-south-1"
 }
 resource "aws_instance" "myawsserver" {
   ami = "ami-0a7cf821b91bcccbc"
